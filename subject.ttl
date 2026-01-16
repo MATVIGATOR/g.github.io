@@ -1,0 +1,192 @@
+@prefix ex: <http://example.org/edu/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+### [체육과 성취기준 및 자료 매칭] ###
+
+# 1. [4체01-01] [cite: 1]
+ex:Standard_PE_01 a ex:AchievementStandard ;
+    rdfs:label "운동과 체력의 의미 파악" ;
+    ex:content "운동과 체력의 의미를 이해하고 관계를 파악한다." ;
+    ex:matchedResource <https://www.edunet.net/nedu/ncsearch/listItemList.do?menu_id=616> .
+
+# 2. [4체01-02] [cite: 1]
+ex:Standard_PE_02 a ex:AchievementStandard ;
+    rdfs:label "기본 체력운동 시도" ;
+    ex:content "기본 체력운동의 방법과 절차를 익히며 자신의 수준에 맞는 운동을 시도한다." ;
+    ex:matchedResource <https://www.sportal.or.kr/health/healthList.do> .
+
+# 3. [4체01-03] [cite: 2]
+ex:Standard_PE_03 a ex:AchievementStandard ;
+    rdfs:label "운동과 건강의 관계" ;
+    ex:content "운동과 건강의 의미를 이해하고 관계를 파악한다." ;
+    ex:matchedResource <https://www.khidi.or.kr/knhanes> .
+
+# 4. [4체02-01] [cite: 2]
+ex:Standard_PE_04 a ex:AchievementStandard ;
+    rdfs:label "스포츠의 의미와 유형" ;
+    ex:content "스포츠의 의미와 유형을 파악한다." ;
+    ex:matchedResource <https://www.sports.re.kr/> .
+
+# 5. [4체02-02] [cite: 3]
+ex:Standard_PE_05 a ex:AchievementStandard ;
+    rdfs:label "기본 움직임 기술과 스포츠" ;
+    ex:content "기본 움직임 기술의 의미와 종류를 이해하고 스포츠와의 관계를 파악한다." ;
+    ex:matchedResource <https://www.safetyline.or.kr/> .
+
+# 6. [4체02-03] [cite: 4]
+ex:Standard_PE_06 a ex:AchievementStandard ;
+    rdfs:label "움직임 요소별 수행" ;
+    ex:content "움직임 요소에 따른 기본 움직임 기술의 수행 방법을 파악하고 시도한다." ;
+    ex:matchedResource <https://www.youtube.com/user/kspo_official> .
+
+# 7. [4체02-04] [cite: 5]
+ex:Standard_PE_07 a ex:AchievementStandard ;
+    rdfs:label "복합적인 움직임 기술" ;
+    ex:content "기본 움직임 기술을 연결한 복합적인 움직임 기술을 파악하고 시도한다." ;
+    ex:matchedResource <https://www.schoolphysicals.com/> .
+
+# 8. [4체03-01] [cite: 5]
+ex:Standard_PE_08 a ex:AchievementStandard ;
+    rdfs:label "표현 활동의 의미" ;
+    ex:content "표현 활동의 의미와 기본 움직임 기술과의 관계를 파악한다." ;
+    ex:matchedResource <https://www.kodat.or.kr/> .
+
+# 9. [4체03-02] [cite: 6]
+ex:Standard_PE_09 a ex:AchievementStandard ;
+    rdfs:label "움직임 요소별 표현" ;
+    ex:content "움직임 요소에 따른 기본 움직임 기술의 표현 방법을 파악하고 시도한다." ;
+    ex:matchedResource <https://www.artshub.or.kr/> .
+
+# 10. [4체03-03] [cite: 6]
+ex:Standard_PE_10 a ex:AchievementStandard ;
+    rdfs:label "사물 및 자연 모방 표현" ;
+    ex:content "기본 움직임 기술을 활용하여 사물이나 자연을 모방하여 표현한다." ;
+    ex:matchedResource <https://www.kacef.or.kr/> .
+
+
+### [음악과 성취기준 및 자료 매칭] ###
+
+# 11. [4음01-01] [cite: 7]
+ex:Standard_MU_01 a ex:AchievementStandard ;
+    rdfs:label "바른 자세와 주법" ;
+    ex:content "바른 자세와 주법을 익혀 노래 부르거나 악기로 연주한다." ;
+    ex:matchedResource <https://www.gugak.go.kr/site/main/index/index002> .
+
+# 12. [4음01-02] [cite: 7]
+ex:Standard_MU_02 a ex:AchievementStandard ;
+    rdfs:label "음악 요소 살려 연주" ;
+    ex:content "기초적인 음악 요소를 살려 노래 부르거나 악기로 연주하고 느낌을 이야기한다." ;
+    ex:matchedResource <https://primary.ebs.co.kr/main/primary> .
+
+# 13. [4음01-03] [cite: 8]
+ex:Standard_MU_03 a ex:AchievementStandard ;
+    rdfs:label "신체표현 및 놀이" ;
+    ex:content "노래와 악기 연주에 어울리는 신체표현이나 놀이를 하며 음악을 즐긴다." ;
+    ex:matchedResource <https://www.sac.or.kr/> .
+
+# 14. [4음02-01] [cite: 8]
+ex:Standard_MU_04 a ex:AchievementStandard ;
+    rdfs:label "음악 요소 탐색 및 반응" ;
+    ex:content "음악을 듣고 기초적인 음악 요소를 탐색하며 반응한다." ;
+    ex:matchedResource <https://musiclab.chromeexperiments.com/> .
+
+# 15. [4음02-02] [cite: 9]
+ex:Standard_MU_05 a ex:AchievementStandard ;
+    rdfs:label "음악적 특징 발견" ;
+    ex:content "다양한 음악을 듣고 음악적 특징을 발견한다." ;
+    ex:matchedResource <https://www.classicfm.com/> .
+
+# 16. [4음02-03] [cite: 9]
+ex:Standard_MU_06 a ex:AchievementStandard ;
+    rdfs:label "음악의 분위기와 쓰임" ;
+    ex:content "다양한 종류의 음악을 듣고 음악의 분위기를 묘사하거나 쓰임을 이야기한다." ;
+    ex:matchedResource <https://www.iscm.org/> .
+
+# 17. [4음02-04] [cite: 10]
+ex:Standard_MU_07 a ex:AchievementStandard ;
+    rdfs:label "생활 속 음악 즐기기" ;
+    ex:content "생활 속에서 음악을 들으며 느낌과 호기심을 갖고 즐긴다." ;
+    ex:matchedResource <https://www.spotify.com/kids/> .
+
+# 18. [4음03-01] [cite: 10]
+ex:Standard_MU_08 a ex:AchievementStandard ;
+    rdfs:label "즉흥적 표현" ;
+    ex:content "느낌과 상상을 즉흥적으로 표현하며 음악에 대한 흥미를 갖는다." ;
+    ex:matchedResource <https://www.incredibox.com/> .
+
+# 19. [4음03-02] [cite: 11]
+ex:Standard_MU_09 a ex:AchievementStandard ;
+    rdfs:label "악곡 개작 및 기보" ;
+    ex:content "악곡의 일부를 바꾸어 표현하고 간단한 악보로 나타낸다." ;
+    ex:matchedResource <https://www.noteflight.com/> .
+
+# 20. [4음03-03] [cite: 11]
+ex:Standard_MU_10 a ex:AchievementStandard ;
+    rdfs:label "음악 요소 활용 표현" ;
+    ex:content "기초적인 음악 요소를 활용하여 소리나 음악으로 표현한다." ;
+    ex:matchedResource <https://www.soundtrap.com/edu/> .
+
+
+### [미술과 성취기준 및 자료 매칭] ###
+
+# 21. [4미01-01] [cite: 12]
+ex:Standard_AR_01 a ex:AchievementStandard ;
+    rdfs:label "다양한 감각 활용 탐색" ;
+    ex:content "자연물과 인공물을 탐색하는 데 다양한 감각을 활용할 수 있다." ;
+    ex:matchedResource <https://artsandculture.google.com/> .
+
+# 22. [4미01-02] [cite: 13]
+ex:Standard_AR_02 a ex:AchievementStandard ;
+    rdfs:label "주변 대상 체험 및 표현" ;
+    ex:content "주변 대상을 체험하며 떠오른 느낌과 생각을 다양한 방법으로 나타낼 수 있다." ;
+    ex:matchedResource <https://www.mmca.go.kr/child/> .
+
+# 23. [4미01-03] [cite: 14]
+ex:Standard_AR_03 a ex:AchievementStandard ;
+    rdfs:label "미적 탐색과 특징 이해" ;
+    ex:content "미적 탐색에 호기심을 갖고 참여하며 자신의 감각으로 대상의 특징을 이해할 수 있다." ;
+    ex:matchedResource <https://www.museum.go.kr/site/child/home> .
+
+# 24. [4미02-01] [cite: 15]
+ex:Standard_AR_04 a ex:AchievementStandard ;
+    rdfs:label "아이디어 구체화" ;
+    ex:content "관찰과 상상으로 아이디어를 떠올려 표현 주제를 구체화할 수 있다." ;
+    ex:matchedResource <https://www.behance.net/> .
+
+# 25. [4미02-02] [cite: 16]
+ex:Standard_AR_05 a ex:AchievementStandard ;
+    rdfs:label "재료와 용구의 특성 이해" ;
+    ex:content "기본적인 표현 재료와 용구의 특성을 이해하고 사용 방법을 익힐 수 있다." ;
+    ex:matchedResource <https://www.dickblick.com/learning-center/> .
+
+# 26. [4미02-03] [cite: 17]
+ex:Standard_AR_06 a ex:AchievementStandard ;
+    rdfs:label "조형 요소 활용" ;
+    ex:content "조형 요소의 특징을 자유롭게 탐색하며 주제 표현에 알맞게 활용할 수 있다." ;
+    ex:matchedResource <https://www.tate.org.uk/kids> .
+
+# 27. [4미02-04] [cite: 18]
+ex:Standard_AR_07 a ex:AchievementStandard ;
+    rdfs:label "작품 제작 및 태도" ;
+    ex:content "표현 의도를 가지고 작품을 제작하며 자기 작품을 소중히 여길 수 있다." ;
+    ex:matchedResource <https://www.artsonia.com/> .
+
+# 28. [4미03-01] [cite: 19]
+ex:Standard_AR_08 a ex:AchievementStandard ;
+    rdfs:label "작품 질문 및 탐구" ;
+    ex:content "미술 작품을 자세히 보고 작품과 미술가에 관해 질문할 수 있다." ;
+    ex:matchedResource <https://www.moma.org/learn/kids_families/index> .
+
+# 29. [4미03-02] [cite: 20]
+ex:Standard_AR_09 a ex:AchievementStandard ;
+    rdfs:label "작품 특징 설명" ;
+    ex:content "미술 작품의 특징과 작품에 관한 자신의 느낌과 생각을 설명할 수 있다." ;
+    ex:matchedResource <https://www.metmuseum.org/art/online-features/metkids> .
+
+# 30. [4미03-03] [cite: 21]
+ex:Standard_AR_10 a ex:AchievementStandard ;
+    rdfs:label "미술 문화 참여" ;
+    ex:content "미술 문화에 관심을 가지고 전시 및 행사에 참여할 수 있다." ;
+    ex:matchedResource <https://korean-culture.org/> .
